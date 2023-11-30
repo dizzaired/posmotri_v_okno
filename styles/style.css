@@ -39,11 +39,11 @@ ol {
 
 .content {
   display: grid;
+  grid-template-rows: 133%;
   grid-template-areas: "a a a" "b c c" "b c c";
   place-content: center;
-  justify-content: center;
   align-items: flex-end;
-  gap: 30px;
+  gap: 30px
 }
 
 .result {
