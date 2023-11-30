@@ -38,9 +38,9 @@ ol {
 }
 
 .content {
-  padding-top: 133px;
-  padding-bottom: 133px;
-  display: flex;
+  display: grid;
+  grid-template-areas: "a a a" "b c c" "b c c";
+  place-content: center;
   justify-content: center;
   align-items: flex-end;
   gap: 30px;
@@ -248,7 +248,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
 
 .content__video-card-title {
   color: #fff;
-  font-family: Oswald;
+  font-family: Oswald , sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 100%;
@@ -257,7 +257,6 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
 
 .content__video-card-description {
   color: #fff;
-  font-family: Fira Sans Condensed;
   font-size: 18px;
   font-weight: 400;
   line-height: 16.2px;
