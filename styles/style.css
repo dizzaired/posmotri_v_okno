@@ -39,7 +39,7 @@ ol {
 
 .content {
   display: grid;
-  grid-template-rows: 133%;
+  grid-template-rows: 150%;
   grid-template-areas: "a a a" "b c c" "b c c";
   place-content: center;
   align-items: flex-end;
