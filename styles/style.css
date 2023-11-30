@@ -38,10 +38,8 @@ ol {
 }
 
 .content {
-  display: grid;
-  grid-template-rows: 150%;
-  grid-template-areas: "a a a" "b c c" "b c c";
-  place-content: center;
+  display: flex;
+  margin-top: 133px;
   align-items: flex-end;
   gap: 30px
 }
