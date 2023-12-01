@@ -20,7 +20,6 @@ html {
   max-width: 1200px;
   width: 100%;
   place-content: center;
-
 }
 
 h1,
@@ -46,7 +45,7 @@ ol {
   display: grid;
   grid-template-areas: "a a a" "b c c" "b c c";
   align-items: flex-end;
-  gap: 30px
+  gap: 30px;
 }
 
 .result {
@@ -252,7 +251,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
 
 .content__video-card-title {
   color: #fff;
-  font-family: Oswald , sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 100%;
